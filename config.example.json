@@ -1,0 +1,9 @@
+{
+  "thread_id": "REPLACE-WITH-SELECTED-THREAD-ID",
+  "title": "我的任务",
+  "rollout_path": "REPLACE-WITH-SELECTED-ROLLOUT.jsonl",
+  "poll_seconds": 1,
+  "tail_bytes": 8388608,
+  "max_steps_per_turn": 160,
+  "max_turns": 4
+}

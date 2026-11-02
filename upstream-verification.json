@@ -1,0 +1,43 @@
+{
+  "source": "cyberdaddyleo/agent-display",
+  "sourceCommit": "ff44824a741d9b2a767b82f39d3dd34c75c87e3f",
+  "sourceSha256": "62709b8e26858a5d0e21d3c2b2bbe8090f6f0f32f6e58c3048b599ec1bb4d4b9",
+  "adapterVersion": "2.1.0",
+  "driverChanges": [
+    "work-item binding",
+    "parallel emission routing",
+    "per-part return offsets",
+    "decorative projection cycle",
+    "separate WORKS visual clock"
+  ],
+  "adaptedThemes": [
+    "forge",
+    "works"
+  ],
+  "originalTemplateCount": 10,
+  "templatesUnchanged": true,
+  "preservedRenderFunctions": {
+    "drawGL": "d38141d9f8bc92cdd03bdcc6573c76a5937dd7ec26033f93f01088ba452a8e10",
+    "drawComets": "d19211541d9dca2a0e81887ce8612e8cfdc3a9bbc51489597fb6cd338cb72b6b",
+    "drawHud": "17720ac2620c7c381b9c0ae96dc8ccd46f3b92fb27307786a42be3153b3ad1dc",
+    "renderWeb": "e8db1da9c0d3f244168d2e7ff06f0cd53a486dd2864ced5c29ef1338928bb573",
+    "viewMat": "395b60264a15bb75a14a6aa6f8e3540127050717e684e09bc99b4497c645f78e",
+    "placeLabels": "3167666a617fceaa3c3c5efc6a7f566ccf944444410812dd249d8e2aaad8c103",
+    "placeOrbitLabels": "eeea957f6d35c2a1324ab9482cbb7afcb9df2f8fff265806c1e289edffa61717"
+  },
+  "preservedWorksRenderFunctions": {
+    "drawGL": "38a48ca6040a7f28d725f17d90f21b9f15fbc37d6d354ee8d7018eb0ced0d48c",
+    "drawMeshes": "88c45c8c34fbd2ea759e8f39954a1d73747aede31930d69c352200d97312f07b",
+    "drawStrandsGL": "5fb1138f6dc3f3e95a8851e57a92074eb6c57c3eb20543025f6927a23b9372a8",
+    "drawDrops": "103e828c63f11fba2e824ba9463a3a58010530cdcaac791919f93eb619ae3164",
+    "drawBeam": "daeef5706b7d1a3d47b3826eeeca43a01c964353c5323f620d8c5e21af07fe9f",
+    "drawUnitFx": "a0059f0d5834cb0e8565191b8bd0b7c3dd01e732544b1a348d5604a8f767083f",
+    "drawMasterFx": "5c221e6cd6b1454d8ddd0f4de4d1aa79fcf143e3bdaa30df2930e4865c5457c4",
+    "updateMachines": "6dd9887f053fd3a77851f55ef3d54c41fefd75c37eabcae4848132325eacdb29",
+    "viewMat": "4d6bec80fd6104f59519524eb8b4e091de1ed25de864057966d017d6a777d54d"
+  },
+  "unconnectedThemesUnchanged": true,
+  "themeSwitcherUnchanged": true,
+  "readOnly": true,
+  "threadSelection": "local configuration only"
+}

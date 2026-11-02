@@ -1,0 +1,22 @@
+# Personal configuration and raw execution records must stay local.
+config.local.json
+*.local.json
+config.json
+*.jsonl
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.observer-test-*/
+.http-test-*/
+.config-test-*/
+captures/
+screenshots/
+outputs/
+node_modules/
+.venv/
+.DS_Store
+Thumbs.db

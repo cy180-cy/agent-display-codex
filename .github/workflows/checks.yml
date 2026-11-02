@@ -1,0 +1,19 @@
+name: Validate local display
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python build_live.py
+      - run: python -m unittest discover -v
+      - run: node verify_build.cjs
+      - run: node test_forge_mapping.cjs
+      - run: node test_work_items.cjs
+      - run: node test_theme_contracts.cjs
